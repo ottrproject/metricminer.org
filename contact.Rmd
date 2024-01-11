@@ -4,8 +4,4 @@ output:
   html_document
 ---
 
-
-
-If you have questions please contact:
-
-* Carrie Wright (cwrigh60@jhu.edu)
+If you have questions please contact Candace Savonen (csavonen@fredhutch.org) or [leave a GitHub Issue]( https://github.com/fhdsl/metricminer/issues)
