@@ -5,3 +5,5 @@ output:
 ---
 
 If you have questions please contact Candace Savonen (csavonen@fredhutch.org) or [leave a GitHub Issue]( https://github.com/fhdsl/metricminer/issues)
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4P8xntp22CShqCDMGvC6prCInaqbzC2fbknIkFujR5ORTSw/viewform?embedded=true" width="640" height="1189" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
