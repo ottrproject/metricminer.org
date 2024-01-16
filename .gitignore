@@ -13,3 +13,5 @@ testthat-problems.rds
 .Renviron
 inst/doc
 .DS_Store
+local_auth_2.R
+local_auth.R
