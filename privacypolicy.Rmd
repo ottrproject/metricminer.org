@@ -40,17 +40,14 @@ These packages can help you get a token by guiding you through the OAuth flow in
 ### Scopes
 Overview of the scopes as they are seen on the OAuth screen, requested by various metricminer and the rationale of why you may need them:
 
-- `See, edit, create, and delete all of your Google Drive files.` This is used for if you'd like store metrics you collect with metricminer to your GoogleDrive folder. [Function that uses this scope](https://hutchdatascience.org/metricminer/reference/write_to_gsheet.html).
 - `See and download all your Google Drive files.` This is used for you'd like to find and retrieve Slido data or Google Forms that are stored in your Google Drive. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-forms)
 - `See information about your Google Drive files.` This is used for you'd like to retrieve Slido data or Google Forms that are stored in your Google Drive. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-forms).
 - `See, edit, create, and delete only the specific Google Drive files you use with this app.` This is used for if you'd like store metrics you collect with `metricminer` to your GoogleDrive folder. [Function that uses this scope](https://hutchdatascience.org/metricminer/reference/write_to_gsheet.html).
 - `View your YouTube account` This is used for collecting metrics from Youtube videos or Youtube channels with [those respective functions](https://hutchdatascience.org/metricminer/#youtube).
 - `See, edit, create, and delete all your Google Sheets spreadsheets.` [Function that uses this scope](https://hutchdatascience.org/metricminer/reference/write_to_gsheet.html).
 - `See and download your Google Analytics data.` This is used for collecting data from Google Analytics. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-analytics)
-- `View and manage your Google Analytics data.` This is used for collecting data from Google Analytics. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-analytics).
-- `See all responses to your Google Forms forms.` - This is used for you'd like to retrieve Google Form data that are stored in your Google Drive.[Functions that use this scope](https://hutchdatascience.org/metricminer/#google-forms)
+- `See all responses to your Google Forms forms.` - This is used for when you'd like to retrieve Google Form response data that are stored in your Google Drive. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-forms)
 - `See all your Google Forms forms.` This is used for you'd like to retrieve Google Form data that are stored in your Google Drive. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-forms)
-- `See, edit, create, and delete all your Google Forms forms.` This is used for you'd like to retrieve Google Form data that are stored in your Google Drive. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-forms)
 
 
 ## Sharing user data
