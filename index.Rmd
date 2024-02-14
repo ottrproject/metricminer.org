@@ -24,3 +24,5 @@ This work is funded by NCI UE5CA254170 as a part of the [ITCR Training Network](
 
   gtag('config', 'G-951TGMSPH7');
 </script>
+
+[See privacy policy](https://www.metricminer.org/privacypolicy.html)
