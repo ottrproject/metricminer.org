@@ -6,11 +6,12 @@ navbar:
   - text: Home
     href: index.html
     icon: fa-home
-  - text: Getting Started
-    href: 
-  - text: R package docs
+  - text: R Package
     href: https://hutchdatascience.org/metricminer/articles/getting-started.html
     icon: fa-play
+  - text: Make your own dashboard (beta)
+    href: http://dashboard.metricminer.org/
+    icon: fa-gauge
   - text: Contact
     href: contact.html
     icon: fa-envelope

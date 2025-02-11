@@ -26,3 +26,4 @@ This work is funded by NCI UE5CA254170 as a part of the [ITCR Training Network](
 </script>
 
 [See privacy policy](https://www.metricminer.org/privacypolicy.html)
+Logo is made by Candace Savonen using [Dall-e 2](https://openai.com/dall-e-2) and [GIMP](https://www.gimp.org/).
