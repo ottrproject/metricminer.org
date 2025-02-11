@@ -7,6 +7,8 @@ navbar:
     href: index.html
     icon: fa-home
   - text: Getting Started
+    href: 
+  - text: R package docs
     href: https://hutchdatascience.org/metricminer/articles/getting-started.html
     icon: fa-play
   - text: Contact

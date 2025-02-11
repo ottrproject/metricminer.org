@@ -1,3 +1,7 @@
+calendly
+googlesheet
+navbar
+DocToc
 cheatsheet
 css
 custimization
