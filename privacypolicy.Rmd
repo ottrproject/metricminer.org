@@ -44,7 +44,7 @@ Overview of the scopes as they are seen on the OAuth screen, requested by variou
 - `See information about your Google Drive files.` This is used for you'd like to retrieve Slido data or Google Forms that are stored in your Google Drive. We need this scope in order to actually be able to find those files for you.[Functions that use this scope](https://hutchdatascience.org/metricminer/#google-forms).
 - `See, edit, create, and delete only the specific Google Drive files you use with this app.` This is used for if you'd like store metrics you collect with `metricminer` to your GoogleDrive folder. We need this scope so that you can write your metrics to your Google Drive in a GoogleSheet. [Function that uses this scope](https://hutchdatascience.org/metricminer/reference/write_to_gsheet.html).
 - `View your YouTube account` This is used for collecting metrics from Youtube videos or Youtube channels with [those respective functions](https://hutchdatascience.org/metricminer/#youtube). We need this scope so we can retrieve your YouTube metrics with those functions.
-- `See, edit, create, and delete all your Google Sheets spreadsheets. Learn more` This is used for accessing sheets made with [Slido](https://hutchdatascience.org/metricminer/articles/getting-started.html#slido) as well as for writing data to Google Sheets if you so choose. 
+- `See, edit, create, and delete all your Google Sheets spreadsheets. Learn more` This is used for accessing sheets made with [Slido](https://hutchdatascience.org/metricminer/articles/getting-started.html#slido) as well as for writing data to Google Sheets if you so choose.
 - `See and download your Google Analytics data.` This is used for collecting data from Google Analytics. We need this scope if you'd like to collect your metrics from Google Analytics. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-analytics)
 - `See all responses to your Google Forms forms.` - This is used for when you'd like to retrieve Google Form response data that are stored in your Google Drive. We need this scope if you'd like to collect your form responses. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-forms)
 - `See all your Google Forms forms.` This is used for you'd like to retrieve Google Form data that are stored in your Google Drive.  We need this scope if you'd like to collect metadata about your forms. [Functions that use this scope](https://hutchdatascience.org/metricminer/#google-forms)
@@ -58,8 +58,14 @@ These packages may store your credentials on your local machine, for later reuse
 
 By default, an OAuth token is  stored in your local environment and if when you are authorizing a package you set `cache = TRUE` your credentials will be stored in a location like, such as ~/User/<yourusername>/Library/Caches/org.R-project.R/R/metricminer/cached-secrets. But this exact location will be specific to your computer. You can retrieve the exact file path of your cached secrets by running this in R `metricminer::cached_secrets_folder()`.
 
+To delete your token on your computer that was collected by metricminer you can run `metricminer::delete_creds()` and any instances of your credentials and tokens will be deleted from your computer. 
+
+## Retention or deletion of data
+Upon using a `metricminer` function that collects your data, it will be brought into the R session space. Whether this is written to a file, whether on Google drive or elsewhere is not automatic and up to the user. Data will be local to your computer unless you put it somewhere else.
+
 ## Data protection policy
 We do not collect any data about you and we do not have any access to data that you retrieve by using this package. Security procedures are in place to protect the confidentiality of any that we might come across, and we use best practices, such as encryption and mandatory usage of 2FA, as a matter of course.
+
 
 ## Policies for authors of packages or other applications
 Do not use an API key or client ID from the `metricminer` in an external package or tool. Per the Google User Data Policy https://developers.google.com/terms/api-services-user-data-policy, your application must accurately represent itself when authenticating to Google API services.
