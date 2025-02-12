@@ -419,6 +419,18 @@ your credentials will be stored in a location like, such as
 But this exact location will be specific to your computer. You can
 retrieve the exact file path of your cached secrets by running this in R
 <code>metricminer::cached_secrets_folder()</code>.</p>
+<p>To delete your token on your computer that was collected by
+metricminer you can run <code>metricminer::delete_creds()</code> and any
+instances of your credentials and tokens will be deleted from your
+computer.</p>
+</div>
+<div id="retention-or-deletion-of-data" class="section level2">
+<h2>Retention or deletion of data</h2>
+<p>Upon using a <code>metricminer</code> function that collects your
+data, it will be brought into the R session space. Whether this is
+written to a file, whether on Google drive or elsewhere is not automatic
+and up to the user. Data will be local to your computer unless you put
+it somewhere else.</p>
 </div>
 <div id="data-protection-policy" class="section level2">
 <h2>Data protection policy</h2>
