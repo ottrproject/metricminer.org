@@ -15,7 +15,6 @@ metricminer is an R package wrapper for Google data as well as other web service
 
 - Google forms
 - Googledrive
-- Googlesheets
 - Google Analytics
 - Youtube
 
@@ -57,7 +56,7 @@ These packages may store your credentials on your local machine, for later reuse
 
 By default, an OAuth token is  stored in your local environment and if when you are authorizing a package you set `cache = TRUE` your credentials will be stored in a location like, such as ~/User/<yourusername>/Library/Caches/org.R-project.R/R/metricminer/cached-secrets. But this exact location will be specific to your computer. You can retrieve the exact file path of your cached secrets by running this in R `metricminer::cached_secrets_folder()`.
 
-To delete your token on your computer that was collected by metricminer you can run `metricminer::delete_creds()` and any instances of your credentials and tokens will be deleted from your computer. 
+To delete your token on your computer that was collected by metricminer you can run `metricminer::delete_creds()` and any instances of your credentials and tokens will be deleted from your computer.
 
 ## Retention or deletion of data
 Upon using a `metricminer` function that collects your data, it will be brought into the R session space. Whether this is written to a file, whether on Google drive or elsewhere is not automatic and up to the user. Data will be local to your computer unless you put it somewhere else.
