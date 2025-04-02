@@ -7,7 +7,7 @@ navbar:
     href: index.html
     icon: fa-home
   - text: R Package
-    href: https://hutchdatascience.org/metricminer/articles/getting-started.html
+    href: https://ottrproject.org/metricminer/articles/getting-started.html
     icon: fa-play
   - text: Make your own dashboard (beta)
     href: http://dashboard.metricminer.org/
