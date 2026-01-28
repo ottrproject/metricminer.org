@@ -10,7 +10,7 @@ navbar:
     href: https://ottrproject.org/metricminer/articles/getting-started.html
     icon: fa-play
   - text: Make your own dashboard (beta)
-    href: http://dashboard.metricminer.org/
+    href: https://dashboard.metricminer.org/
     icon: fa-gauge
   - text: Contact
     href: contact.html
