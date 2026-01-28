@@ -13,8 +13,8 @@ Adapted from https://www.tidyverse.org/google_privacy_policy/
 ## Privacy policy for packages that access Google APIs
 metricminer is an R package wrapper for Google data as well as other web services. This includes obtaining data from the APIs from these Google products:
 
-- Google forms
-- Googledrive
+- Google Forms
+- GoogleDrive
 - Google Analytics
 - Youtube
 
