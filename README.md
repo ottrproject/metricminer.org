@@ -1,6 +1,6 @@
 
 
-# metricminer.org <img src="https://raw.githubusercontent.com/fhdsl/metricminer/main/resources/metricminer-gnome.png" width = "100">
+# metricminer.org <img src="https://raw.githubusercontent.com/ottrproject/metricminer/main/resources/metricminer-gnome.png" width = "100">
 
 
 
